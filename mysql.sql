@@ -1,3 +1,4 @@
+
 #commend
 #mySQL -u root -p
 Status

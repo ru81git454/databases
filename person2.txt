@@ -1,0 +1,66 @@
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 93
+Server version: 5.7.23 MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2018, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> use tryDB;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> source person2.sql
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select * from person2;
++----+--------+---------+--------------+------------+
+| id | name   | phone   | address      | birthday   |
++----+--------+---------+--------------+------------+
+|  1 | 徐得恩 | 1234567 | 高雄市三民區 | 1980-02-14 |
+|  2 | 莊明峰 | 7654321 | 高雄市左營區 | 1980-12-13 |
+|  3 | 陳立夫 | 5432456 | 高雄縣鳳山市 | 1976-01-17 |
+|  4 | 吳技炎 | 3136783 | 高雄縣僑頭鄉 | 1979-11-05 |
+|  5 | 許功蓋 | 8730933 | 台南縣關廟鄉 | 1980-04-30 |
+|  6 | 郭春如 | 3675512 | 雲林縣斗六市 | 1980-05-22 |
+|  7 | 葛  悅 | 8719938 | 高雄市三民區 | 1981-01-09 |
+|  8 | 徐志明 | 3918274 | 高雄市鼓山區 | 1979-12-31 |
+|  9 | 周麗華 | 3847349 | 台南縣永康市 | 1976-11-11 |
+| 10 | 周秀芳 | 3782393 | 嘉義縣朴子市 | 1981-02-11 |
+| 11 | 鄭國成 | 7842742 | 高雄市左營區 | 1978-05-14 |
+| 12 | 吳俊吉 | 6748242 | 高雄縣岡山鎮 | 1977-07-25 |
++----+--------+---------+--------------+------------+
+12 rows in set (0.00 sec)
+
+mysql> \q

@@ -1,0 +1,583 @@
+/*  
+Theme Name: Christmas Carol
+Theme URI: http://www.blogger-template.info/christmas-carol-theme
+Description: Holidays related WordPress theme. <a href="http://www.blogger-template.info/christmas-carol-theme">VIEW ONLINE DEMO</a>. Created by <a href="http://mychristmasideas.com">Christmas Craft Ideas</a>. Credit to the following: Scott Schiller (snow), Christmas Carol Logo (Uncredited and unknown), IconDrawer (Candy cane icon, Xmas decoration green icon), Iconka.com (Santa Klaus icon), EnhacedLabs (Christmas Tree icon), Wendell Fernandes (Christmas RSS icon), Aha-Soft (Santa cap icon). Theme to be used for personal use only.
+Version: 1.0
+Author: 123
+Author URI: http://123
+Tags: gold, red, white, christmas, holidays, pro, premium, custom header, fixed width, two columns, widgets, adsense, affiliate, gravatar, seo
+*/
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	Main Layout
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+body,td,th {
+font-family:Arial;
+font-size:12px;
+color:#333333;
+}
+
+body {
+background:#ffffff;
+margin-left:0px;
+margin-top:0px;
+margin-right:0px;
+margin-bottom:0px;
+}
+
+a:link {color:#000000; text-decoration:underline;}
+a:visited {color:#000000; text-decoration:underline;}
+a:active {color:#000000; text-decoration:underline;}
+a:hover {color:#cc0000; text-decoration:none;}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	Pagebar
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.pagebar {font:11px Arial, Helvetica, sans-serif; padding-top:0px; padding-bottom:5px; margin:0px; color:#666666;}
+.pagebar a, .pageList .this-page {padding:2px 6px; text-decoration:none; border:solid 1px #dadada; background:#ffffff;}
+.pagebar a:visited {padding:2px 6px; text-decoration:none; border:solid 1px #dadada; background:#ffffff;}
+.pagebar .break {padding:2px 6px; border:none; text-decoration:none; background:#ffffff;}
+.pagebar .this-page {padding:2px 6px; font-weight:bold; font-size:13px; vertical-align:top; border-color:#f6f6f6; background:#ffffff;}
+.pagebar a:hover {text-decoration:none; border-color:#dadada; color:#ffffff; background:#cc0000;}
+
+#pagination {
+margin:0 auto;
+text-align:center;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	Images and Caption Alignment
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.aligncenter,
+div.aligncenter {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.wp-caption {
+   border: 1px solid #ddd;
+   text-align: center;
+   background-color: #f3f3f3;
+   padding-top: 4px;
+   margin: 10px;
+   /* optional rounded corners for browsers that support it */
+   -moz-border-radius: 3px;
+   -khtml-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+}
+
+.wp-caption img {
+   margin: 0;
+   padding: 0;
+   border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+   font-size: 11px;
+   line-height: 17px;
+   padding: 0 4px 5px;
+   margin: 0;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	Comments
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: justify;
+	}
+
+.commentlist li {
+	margin: 15px 0 10px;
+	padding: 5px 5px 10px 10px;
+	list-style: none;
+	}
+	
+.commentlist li ul li { 
+	margin-right: -5px;
+	margin-left: 10px;
+}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+}
+
+.children { 
+padding: 0; 
+}
+
+#commentform p {
+	margin: 5px 0;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	}
+
+.commentlist li, #commentform input, #commentform textarea {
+	font: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+	
+.commentlist li ul li {
+	font-size: 1em;
+}
+
+.commentlist li {
+	font-weight: bold;
+}
+
+.commentlist li .avatar { 
+	float: right;
+	border: 1px solid #eee;
+	padding: 2px;
+	background: #fff;
+	}
+
+.commentlist cite, .commentlist cite a {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.1em;
+	}
+
+.commentlist p {
+	font-weight: normal;
+	line-height: 1.5em;
+	text-transform: none;
+	}
+
+#commentform p {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+
+.commentmetadata {
+	font-weight: normal;
+	}
+
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+	}
+
+#commentform {
+	margin: 5px 10px 0 0;
+	}
+	
+#commentform textarea {
+	width: 100%;
+	padding: 2px;
+	}
+	
+#respond:after {
+		content: "."; 
+	    display: block; 
+	    height: 0; 
+	    clear: both; 
+	    visibility: hidden;
+	}
+	
+#commentform #submit {
+	margin: 0 0 5px auto;
+	float: right;
+	}
+
+.thread-alt {
+	background-color: #f8f8f8;
+}
+
+.thread-even {
+	background-color: white;
+}
+
+.depth-1 {
+border: 1px solid #ddd;
+}
+
+.even, .alt {
+
+	border-left: 1px solid #ddd;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	Content
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+blockquote {
+font-size:11px;
+padding:5px 5px 5px 25px;
+margin:0px 30px 0px 30px;
+background-image:url(images/blockquote.gif);
+background-position:top left;
+background-repeat:no-repeat;
+text-indent:1px;
+}
+
+.compress {display:inline;}
+.compress p {display:inline;}
+.compress br {display:inline;}
+.compress ul {display:inline;}
+.compress li {display:inline;}
+.compress h1 {display:inline;}
+.compress h2 {display:inline;}
+
+.notice {font-size:11px; color:#cc0000;}
+.center {text-align:center;}
+.right {text-align:right;}
+.left {text-align:left;}
+.navigation {display:block;text-align:center; padding:0px 0px 0px 0px; font-size:10px; margin-top:5px; margin-bottom:15px;}
+.navigation a {}  
+.navigation a:visited {}  
+.navigation a:hover {} 
+.space li {padding:0px 0px 20px 0px; margin:0px;}
+.gravatar {float:right; margin:10px 10px 10px 10px;}
+hr {height:1px; border:0px; color:#CECFCE; background-color:#CECFCE;}
+pre {height:auto; padding:10px 10px 10px 10px; overflow-x:scroll; width:480px;}
+.pagetitle {}
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.alignleft {
+   float: left;
+   margin: 0 10px 5px 0;
+}
+
+.alignright {
+   float: right;
+   margin: 0 0 5px 10px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	Home Right Navi
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+#box1a {
+margin:0 auto;
+background-color:#a40d12;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	Home Right Navi
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+#box2a {
+margin:0 auto;
+width:991px;
+}
+
+.box2b {
+background-image:url(images/christmas-carol-01.gif);
+background-repeat:no-repeat;
+}
+
+/* - Right - */
+
+	.box2c {
+	color:#FFFFFF;
+	font-size:10px;
+	font-family:Verdana;
+	margin:0px 0px 0px 0px;
+	padding:21px 0px 0px 150px;
+	}
+	
+	.box2c a {text-decoration:underline; color:#ffffff;}
+	.box2c a:visited {text-decoration:underline; color:#ffffff;}
+	.box2c a:hover {text-decoration:none; color:#ffffff;}
+	
+	.box2d {
+	margin:0px 0px 0px 0px;
+	padding:55px 0px 0px 0px;
+	}
+
+/* - Navigation - */
+
+	.box2e ul {padding:26px 0px 0px 0px; margin:0px; list-style-type:none;}
+	.box2e li {padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; text-decoration:none; border-left:1px solid #55100d; border-right:1px solid #95504d; float:left; display:block; font-size:18px; font-weight:bold;}
+	.box2e li a {color:#ffffff; text-decoration:none; padding:11px 17px 10px 17px; margin:0px; display:block;}  
+	.box2e li a:visited {color:#ffffff; text-decoration:none;} 
+	.box2e li a:hover {color:#000000; text-decoration:none; background-color:#ffffff;}
+	
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	Grid for content and sidebar
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+#box3a {
+margin:0 auto;
+width:991px;
+}	
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	White
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.box4a {
+background-color:#FFFFFF;
+background-image:url(images/christmas-carol-02.gif);
+background-repeat:no-repeat;
+}
+
+.box4b {
+background-image:url(images/christmas-carol-03.gif);
+background-repeat:no-repeat;
+background-position:bottom;
+}
+
+.box4c {
+margin:0px 0px 0px 0px;
+padding:24px 28px 0px 28px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	Loop
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.box5a {
+background-image:url(images/christmas-carol-04.gif);
+background-repeat:no-repeat;
+}
+
+/* - Date - */
+
+	.box5b {
+	text-align:center;
+	width:45px;
+	color:#000000;
+	text-transform:uppercase;
+	font-size:12px;
+	margin:0px 0px 0px 0px;
+	padding:47px 0px 0px 0px;
+	}
+	
+	.box5b h3 {
+	font-size:30px;
+	line-height:19px;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	}
+
+/* - Title - */
+
+	.box5c h1 {
+	font-size:18px;
+	line-height:22px;
+	padding:10px 10px 5px 10px;
+	margin:0px 0px 0px 0px;
+	}
+	
+	.box5c h1 a {text-decoration:none; color:#cc0000;}
+	.box5c h1 a:visited {text-decoration:none; color:#cc0000;}
+	.box5c h1 a:hover {text-decoration:none; color:#000000;}
+	
+/* - Date and Category - */
+
+	.leftright {
+	display:block;
+	text-align:center;
+	padding:0px 0px 0px 10px; 
+	color:#999999;
+	font-size:10px; 
+	margin-top:0px; 
+	margin-bottom:0px;}
+
+	.leftright a {text-decoration:underline; color:#999999;}
+	.leftright a:visited {text-decoration:underline; color:#999999;}
+	.leftright a:hover {text-decoration:none; color:#999999;}	
+	
+.box5d {
+height:15px;
+background-image:url(images/christmas-carol-05.gif);
+background-repeat:no-repeat;
+margin:13px 0px 0px 0px;
+padding:0px 0px 0px 0px;
+}	
+
+/* - Content - */	
+
+	.box5e {
+	padding:0px 30px 15px 30px;
+	margin:0px 0px 0px 0px;	
+	}
+	
+	.box5e img {
+	border:none;
+	}
+	
+/* - Tag and Comments - */		
+
+	.box5f {
+	background-image:url(images/christmas-carol-06.gif);
+	background-repeat:repeat-y;
+	}
+	
+	.box5g {
+	background-image:url(images/christmas-carol-07.gif);
+	background-repeat:no-repeat;
+	}
+	
+	.box5h {
+	background-image:url(images/christmas-carol-08.gif);
+	background-repeat:no-repeat;
+	background-position:bottom left;
+	}	
+	
+/* - Tags - */	
+
+	.box5i {
+	font-size:10px;	
+	padding:13px 10px 13px 15px;	
+	margin:0px 0px 0px 0px;	
+	}
+	
+	.box5i a {text-decoration:underline; color:#cc0000; font-style:italic;}
+	.box5i a:visited {text-decoration:underline; color:#cc0000;}
+	.box5i a:hover {text-decoration:none; color:#cc0000;}		
+	
+/* - Comments - */	
+
+	.box5j {
+	font-size:12px;
+	font-weight:bold;
+	}
+	
+	.box5j a {text-decoration:none; color:#ffffff;}
+	.box5j a:visited {text-decoration:none; color:#ffffff;}
+	.box5j a:hover {text-decoration:none; color:#000000;}	
+	
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	Widget
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.widget1 {
+margin:0px 0px 16px 0px;
+padding:0px 0px 0px 0px;
+background-image:url(images/christmas-carol-09.gif);
+background-repeat:repeat-y;
+}	
+
+.widget2 {
+background-image:url(images/christmas-carol-10.gif);
+background-repeat:no-repeat;
+}
+
+.widget3 {
+background-image:url(images/christmas-carol-11.gif);
+background-repeat:no-repeat;
+background-position:bottom left;
+}
+
+.widget4 {
+margin:0px 0px 0px 0px;
+padding:16px 45px 75px 25px;
+color:#ffffff;
+font-size:12px;
+}
+
+.widget4 h3 {
+margin:0px 0px 0px 0px;
+padding:0px 0px 30px 0px;
+color:#000000;
+text-transform:uppercase;
+font-size:14px;
+}
+
+.widget4 a {text-decoration:underline; color:#ffffff;}
+.widget4 a:visited {text-decoration:underline; color:#ffffff;}
+.widget4 a:hover {text-decoration:none; color:#ffffff;}
+
+.widget4 ol {padding:0px 0px 0px 10px; margin:0px;} 
+.widget4 ul {padding:0px 0px 0px 10px; margin:0px;} 
+.widget4 li {padding:7px 5px 7px 21px; margin:0px; list-style-type:none; background:url(images/li.gif) no-repeat left top; color:#ffffff;}
+.widget4 li a {text-decoration:underline; color:#ffffff;}
+.widget4 li a:visited {text-decoration:underline; color:#ffffff;}
+.widget4 li a:hover {text-decoration:none; color:#ffffff;}		
+
+.lightcolor {
+color:#ffffff;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	Footer
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+#box6a {
+margin:0 auto;
+background-image:url(images/christmas-carol-12.gif);
+background-repeat:repeat-x;
+}
+
+#box6b {
+margin:0 auto;
+width:991px;
+}
+
+.box6c {
+}
+
+.box6d {
+color:#666666;
+font-size:10px;
+padding:130px 0px 0px 4px;
+margin:0px 0px 0px 0px;
+}	
+
+.box6d a {text-decoration:underline; color:#cc0000;}
+.box6d a:visited {text-decoration:underline; color:#cc0000;}
+.box6d a:hover {text-decoration:none; color:#cc0000;}
+
+.box6e {
+padding:120px 0px 0px 0px;
+margin:0px 0px 0px 0px;
+}	
+
+.box6f {
+color:#666666;
+font-size:12px;
+font-weight:bold;
+padding:15px 10px 15px 0px;
+margin:0px 0px 0px 0px;
+}
+
+.box6g {
+background-image:url(images/christmas-carol-13.gif);
+background-repeat:no-repeat;
+}
+
+.box6h {
+background-image:url(images/christmas-carol-14.gif);
+background-repeat:no-repeat;
+}
+
+.box6i {
+font-size:12px;
+font-weight:bold;
+padding:14px 0px 14px 0px;
+margin:0px 0px 0px 0px;
+background-image:url(images/christmas-carol-15.gif);
+background-repeat:no-repeat;
+background-position:top center;
+}
+
+.box6i a {text-decoration:none; color:#ffffff;}
+.box6i a:visited {text-decoration:none; color:#ffffff;}
+.box6i a:hover {text-decoration:none; color:#000000;}
